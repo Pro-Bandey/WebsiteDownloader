@@ -2,7 +2,7 @@
   "name": "WebsiteDownloader",
   "short_name": "WebsiteDownloader",
   "description": "Professional website downloader and website copier tool",
-  "start_url": "/WebsiteDownloader",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#f9fafb",
   "theme_color": "#2563eb",
