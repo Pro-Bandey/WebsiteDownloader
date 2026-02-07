@@ -1,0 +1,67 @@
+{
+  "name": "WebsiteDownloader",
+  "short_name": "WebsiteDownloader",
+  "description": "Professional website downloader and website copier tool",
+  "start_url": "/WebsiteDownloader",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#2563eb",
+  "lang": "en",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "./favicon.png",
+      "sizes": "512x512",
+      "type": "image/svg",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./favicon.ico",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "display_override": ["window-controls-overlay"],
+  "protocol_handlers": [
+    {
+      "protocol": "mailto",
+      "url": "/newEmail?to=%s"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./001.png",
+      "type": "image/png",
+      "description": "Screenshot 1"
+    },
+    {
+      "src": "./002.png",
+      "type": "image/png",
+      "description": "Screenshot 2"
+    },
+    {
+      "src": "./003.png",
+      "type": "image/png",
+      "description": "Screenshot 3"
+    }
+  ],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "See Blog",
+      "url": "./blog/",
+      "description": "see bllog page"
+    },
+    {
+      "name": "View Repo",
+      "url": "https://github.com/Pro-Bandey/WebsiteDownloader",
+      "description": "view repo to give us a star"
+    },
+    {
+      "name": "Visit Us",
+      "url": "./mrc/",
+      "description": "visit us to about us more"
+    }
+  ]
+}
