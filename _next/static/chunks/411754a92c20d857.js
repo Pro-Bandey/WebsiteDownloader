@@ -888,12 +888,12 @@
                         "Powered by",
                         " ",
                         (0, t.jsx)("a", {
-                          href: "https://microresearch-corporation.github.io/",
+                          href: "https://mainroute-core.github.io/",
                           target: "_blank",
                           rel: "noopener noreferrer",
                           className:
                             "text-blue-600 dark:text-blue-400 hover:underline font-medium",
-                          children: "MicroResearch Corporation",
+                          children: "MainRoute Core",
                         }),
                       ],
                     }),
